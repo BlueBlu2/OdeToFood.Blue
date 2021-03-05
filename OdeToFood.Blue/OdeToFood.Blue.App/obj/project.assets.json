@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "OdeToFood.Blue.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/OdeToFood.Blue.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Blue.Core.dll": {}
+        }
+      },
+      "OdeToFood.Blue.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OdeToFood.Blue.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OdeToFood.Blue.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Blue.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OdeToFood.Blue.Core/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Blue.Core/OdeToFood.Blue.Core.csproj",
+      "msbuildProject": "../OdeToFood.Blue.Core/OdeToFood.Blue.Core.csproj"
+    },
+    "OdeToFood.Blue.Data/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Blue.Data/OdeToFood.Blue.Data.csproj",
+      "msbuildProject": "../OdeToFood.Blue.Data/OdeToFood.Blue.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "OdeToFood.Blue.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ddven\\.nuget\\packages\\": {},
@@ -36,7 +73,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.Data\\OdeToFood.Blue.Data.csproj": {
+              "projectPath": "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.Data\\OdeToFood.Blue.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

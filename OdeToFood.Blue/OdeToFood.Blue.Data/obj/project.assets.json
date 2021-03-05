@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "OdeToFood.Blue.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/OdeToFood.Blue.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Blue.Core.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "OdeToFood.Blue.Core/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Blue.Core/OdeToFood.Blue.Core.csproj",
+      "msbuildProject": "../OdeToFood.Blue.Core/OdeToFood.Blue.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "OdeToFood.Blue.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.Core\\OdeToFood.Blue.Core.csproj": {
+              "projectPath": "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.Core\\OdeToFood.Blue.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

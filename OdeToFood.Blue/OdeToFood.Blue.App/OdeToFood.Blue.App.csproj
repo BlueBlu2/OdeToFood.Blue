@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OdeToFood.Blue.Data\OdeToFood.Blue.Data.csproj" />
+  </ItemGroup>
+
 </Project>

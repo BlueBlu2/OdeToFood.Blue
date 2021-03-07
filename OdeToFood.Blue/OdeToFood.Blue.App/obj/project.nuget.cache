@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WxjD4cGQFkJRjmvM3Y2C7uWC1nKbNJ4gK4BJyuO0Wb7pcs7mpZbuY3bF7LmV+9wuOBCfL5dxbytzLKR1L8zL0A==",
+  "dgSpecHash": "0tjdusGjj2cUTRAEW+vo9xddhz6v4o2XqS8TTcgXjWxsuM/8JCw/Lf1VTW5cR+AIpNHg9P4CExVLBMmi+2ugFg==",
   "success": true,
   "projectFilePath": "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.App\\OdeToFood.Blue.App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ddven\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

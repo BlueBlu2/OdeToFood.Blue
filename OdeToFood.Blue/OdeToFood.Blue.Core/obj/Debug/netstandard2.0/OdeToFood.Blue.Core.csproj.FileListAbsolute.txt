@@ -3,7 +3,7 @@ C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\bin\Debug
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\bin\Debug\netstandard2.0\OdeToFood.Blue.Core.pdb
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.AssemblyInfoInputs.cache
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.AssemblyInfo.cs
-C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.csproj.CoreCompileInputs.cache
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.dll
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.pdb
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.csprojAssemblyReference.cache
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Core\obj\Debug\netstandard2.0\OdeToFood.Blue.Core.csproj.CoreCompileInputs.cache

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wTepiNwBKEDiYa7a/qXhGmd7CrZO7MEE9ABzD9ARaFiW9kktC6fo7powAge7iwRyK/VK/hEEhK060MsVxP35jw==",
+  "dgSpecHash": "UysTizSrwNwF5+ivGxUkPsPQTbtBftsi+8VoycoJoaT4e43IKYwk0VGT0bXwivN6CK0q/yTDRvsvOiMeAE0jfw==",
   "success": true,
   "projectFilePath": "C:\\Data\\repos\\Public\\OdeToFood.Blue\\OdeToFood.Blue\\OdeToFood.Blue.Data\\OdeToFood.Blue.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ddven\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

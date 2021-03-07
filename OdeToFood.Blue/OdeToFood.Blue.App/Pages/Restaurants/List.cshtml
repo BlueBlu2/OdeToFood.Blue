@@ -28,9 +28,22 @@
                    asp-route-restaurantId="@restaurant.Id">
                     <i class="fa fa-search-plus"></i>
                 </a>
+                <a class="btn btn-lg"
+                   asp-page="./Edit"
+                   asp-route-restaurantId="@restaurant.Id">
+                    <i class="fa fa-edit"></i>
+                </a>
+                <a class="btn btn-lg"
+                   asp-page="./Delete"
+                   asp-route-restaurantId="@restaurant.Id">
+                    <i class="fa fa-trash"></i>
+                </a>
             </td>
         </tr>
     }
 </table>
+<a asp-page="./Edit" class="btn btn-outline-primary btn-lg">
+    <i class="fa fa-plus"></i>
+    </a>
 
 <div>@Model.Message</div>

@@ -10,6 +10,9 @@ namespace OdeToFood.Blue.Data
     {
         IEnumerable<Restaurant> GetRestaurantsByName(string name = null);
         Restaurant GetById(int id);
+        Restaurant Update(Restaurant updatedRestaurant);
+        Restaurant Add(Restaurant newRestaurant);
+        int Commit();
 
     }
     
@@ -42,5 +45,27 @@ namespace OdeToFood.Blue.Data
                    select r;
         }
 
+        public Restaurant Update(Restaurant updatedRestaurant)
+        {
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
+            if (restaurant != null)
+            {
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
+            }
+            return restaurant;
+        }
+        public Restaurant Add(Restaurant newRestaurant)
+        {
+            newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
+            restaurants.Add(newRestaurant);
+            return newRestaurant;
+        }
+        
+        public int Commit()
+        {
+            return 0;
+        }
     }
 }

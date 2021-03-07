@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Blue.Data", "OdeToFood.Blue.Data\OdeToFood.Blue.Data.csproj", "{427ECBCE-B0AB-4E06-AA91-6AD0D7B7C5D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Blue.Data", "OdeToFood.Blue.Data\OdeToFood.Blue.Data.csproj", "{427ECBCE-B0AB-4E06-AA91-6AD0D7B7C5D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Blue.Core", "OdeToFood.Blue.Core\OdeToFood.Blue.Core.csproj", "{744D436B-4CCF-431F-AF46-C53FD01F9961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Blue.Core", "OdeToFood.Blue.Core\OdeToFood.Blue.Core.csproj", "{744D436B-4CCF-431F-AF46-C53FD01F9961}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Blue.App", "OdeToFood.Blue.App\OdeToFood.Blue.App.csproj", "{AFBB8D8F-03AD-482F-80F5-FBE617738222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Blue.App", "OdeToFood.Blue.App\OdeToFood.Blue.App.csproj", "{AFBB8D8F-03AD-482F-80F5-FBE617738222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

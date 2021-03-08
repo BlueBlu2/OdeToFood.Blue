@@ -1,0 +1,12 @@
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\bin\Debug\netstandard2.1\OdeToFood.Blue.Data.deps.json
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\bin\Debug\netstandard2.1\OdeToFood.Blue.Data.dll
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\bin\Debug\netstandard2.1\OdeToFood.Blue.Core.dll
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\bin\Debug\netstandard2.1\OdeToFood.Blue.Core.pdb
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.csprojAssemblyReference.cache
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.AssemblyInfoInputs.cache
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.AssemblyInfo.cs
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.csproj.CopyComplete
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\bin\Debug\netstandard2.1\OdeToFood.Blue.Data.pdb
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.csproj.CoreCompileInputs.cache
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.dll
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.Data\obj\Debug\netstandard2.1\OdeToFood.Blue.Data.pdb

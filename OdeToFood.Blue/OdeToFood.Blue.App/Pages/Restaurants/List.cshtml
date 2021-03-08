@@ -1,12 +1,17 @@
 ﻿@page
 @model OdeToFood.Blue.App.Pages.Restaurants.ListModel
 @{
+    ViewData["Title"] = "Restaurants";
+}
+@if (Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
 }
 <h1>Restaurants</h1>
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" asp-for="SearchTerm"/>
+            <input type="search" class="form-control" asp-for="SearchTerm" />
             <div class="input-group-append">
                 <button class="btn btn-primary">
                     <i class="fa fa-search"></i>
@@ -15,35 +20,12 @@
         </div>
     </div>
 </form>
-<table class="table">
-    @foreach (var restaurant in Model.Restaurants)
-    {
-        <tr>
-            <td>@restaurant.Name</td>
-            <td>@restaurant.Location</td>
-            <td>@restaurant.Cuisine</td>
-            <td>
-                <a class="btn btn-lg"
-                   asp-page="./Detail"
-                   asp-route-restaurantId="@restaurant.Id">
-                    <i class="fa fa-search-plus"></i>
-                </a>
-                <a class="btn btn-lg"
-                   asp-page="./Edit"
-                   asp-route-restaurantId="@restaurant.Id">
-                    <i class="fa fa-edit"></i>
-                </a>
-                <a class="btn btn-lg"
-                   asp-page="./Delete"
-                   asp-route-restaurantId="@restaurant.Id">
-                    <i class="fa fa-trash"></i>
-                </a>
-            </td>
-        </tr>
-    }
-</table>
-<a asp-page="./Edit" class="btn btn-outline-primary btn-lg">
-    <i class="fa fa-plus"></i>
-    </a>
 
-<div>@Model.Message</div>
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" />  
+}
+
+<a asp-page="./Edit" class="btn btn-outline-primary btn-lg mb-5">
+    <i class="fa fa-plus"></i> Add Restaurant
+</a>

@@ -86,3 +86,6 @@ C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\bin\Debug\
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+C:\Data\repos\Public\OdeToFood.Blue\OdeToFood.Blue\OdeToFood.Blue.App\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs

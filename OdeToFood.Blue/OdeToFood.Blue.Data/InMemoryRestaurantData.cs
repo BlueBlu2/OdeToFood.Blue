@@ -68,5 +68,10 @@ namespace OdeToFood.Blue.Data
             }
             return restaurant;
         }
+
+        public int GetCountOfRestaurants()
+        {
+            return restaurants.Count();
+        }
     }
 }

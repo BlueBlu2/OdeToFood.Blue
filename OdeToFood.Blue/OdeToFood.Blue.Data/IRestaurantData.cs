@@ -13,6 +13,7 @@ namespace OdeToFood.Blue.Data
         Restaurant Update(Restaurant updatedRestaurant);
         Restaurant Add(Restaurant newRestaurant);
         Restaurant Delete(int Id);
+        int GetCountOfRestaurants();
         int Commit();
     }
 }

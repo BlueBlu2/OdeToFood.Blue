@@ -41,6 +41,11 @@ namespace OdeToFood.Blue.Data
             return _db.Restaurants.Find(Id);
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return _db.Restaurants.Count();
+        }
+
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
             return _db.Restaurants.Where(q => q.Name.StartsWith(name) || string.IsNullOrEmpty(name)).OrderBy(r => r.Name).ToList();

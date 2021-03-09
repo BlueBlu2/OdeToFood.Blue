@@ -26,6 +26,7 @@ namespace OdeToFood.Blue.App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddDbContextPool<OdeToFoodDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodDb")));
             services.AddScoped<IRestaurantData, SqlRestaurantData>();
@@ -55,6 +56,7 @@ namespace OdeToFood.Blue.App
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
